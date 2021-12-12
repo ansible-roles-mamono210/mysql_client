@@ -1,0 +1,23 @@
+---
+- name: Verify
+  hosts: all
+
+  tasks:
+    - name: Check whether MySQL client is installed
+      ansible.builtin.command: |
+        mysql --version
+      register: mysql_client_installed
+      changed_when: false
+
+    - name: Check OS version
+      ansible.builtin.command: cat /etc/redhat-release
+      register: os_version
+      changed_when: false
+
+    - name: Make sure MySQL client is installed
+      ansible.builtin.debug:
+        var: mysql_client_installed
+
+    - name: Show OS version
+      ansible.builtin.debug:
+        var: os_version

@@ -1,0 +1,15 @@
+---
+dependencies: []
+galaxy_info:
+  author: mamono210
+  company:
+  description: MySQL clinet installation for Linux.
+  galaxy_tags: []
+  license: "license (BSD, MIT)"
+  min_ansible_version: 5
+  role_name: mysql_client
+  platforms:
+    - name: EL
+      versions:
+        - 7
+        - 8
