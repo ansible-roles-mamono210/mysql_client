@@ -1,4 +1,4 @@
-[![](https://github.com/ansible-roles-mamono210/mysql_client/workflows/build/badge.svg)](https://github.com/ansible-roles-mamono210/mysql_client/actions?query=workflow%3Abuild)
+[![CircleCI](https://circleci.com/gh/ansible-roles-mamono210/mysql_client/tree/main.svg?style=svg)](https://circleci.com/gh/ansible-roles-mamono210/mysql_client/tree/main)
 
 Role Description
 =========
