@@ -3,7 +3,7 @@
 Role Description
 =========
 
-Installs [MySQL Client](https://www.mysql.com) for CentOS7/Stream8.
+Installs [MySQL Client](https://www.mysql.com) for Linux.
 
 Requirements
 ------------
